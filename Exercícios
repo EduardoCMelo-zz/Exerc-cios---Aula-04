@@ -1,0 +1,12 @@
+# Exerc-cios---Aula-04
+
+Exercício 1
+
+> db.Vocabulary.find({"text":"feliz"}).explain({"executionStats":1})
+
+A)		"totalDocsExamined" : 291214
+B)			"executionTimeMillisEstimate" : 70,
+C) db.Vocabulary.createIndex({"text":1})
+D) db.Vocabulary.find({"text":"feliz"}).explain({"executionStats":1})
+E)		"totalDocsExamined" : 1,
+F)		"executionTimeMillisEstimate" : 0,
